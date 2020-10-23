@@ -12,9 +12,10 @@ public function show(){
 
 	$data['nama'] = 'Annisa Nurwalikadani';
 	$data['npm'] = '1817051037';
-	$data['jurusan'] = 'Ilkomp';
+	$data['jurusan'] = 'Ilmu Komputer';
+
 	echo view ('mahasiswa/header', $data);
 	echo view ('mahasiswa/index', $data);
 	echo view ('mahasiswa/footer', $data);
-}
+	}
 }
